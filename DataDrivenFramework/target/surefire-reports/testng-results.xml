@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10592" started-at="2018-07-14T04:01:29Z" finished-at="2018-07-14T04:01:40Z">
+    <groups>
+    </groups>
+    <test name="Homepage" duration-ms="6054" started-at="2018-07-14T04:01:29Z" finished-at="2018-07-14T04:01:35Z">
+      <class name="FaruqAcademy.Home">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:FaruqAcademy.Home@70cf32e3]" name="getDriver" is-config="true" duration-ms="5298" started-at="2018-07-14T00:01:29Z" finished-at="2018-07-14T00:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="navigationpage()[pri:0, instance:FaruqAcademy.Home@70cf32e3]" name="navigationpage" duration-ms="83" started-at="2018-07-14T00:01:34Z" finished-at="2018-07-14T00:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationpage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:FaruqAcademy.Home@70cf32e3]" name="teardown" is-config="true" duration-ms="658" started-at="2018-07-14T00:01:34Z" finished-at="2018-07-14T00:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FaruqAcademy.Home -->
+    </test> <!-- Homepage -->
+    <test name="LoginTest" duration-ms="4515" started-at="2018-07-14T04:01:35Z" finished-at="2018-07-14T04:01:40Z">
+      <class name="FaruqAcademy.LoginTest">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:FaruqAcademy.LoginTest@790da477]" name="getDriver" is-config="true" duration-ms="3416" started-at="2018-07-14T00:01:35Z" finished-at="2018-07-14T00:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:FaruqAcademy.LoginTest@790da477]" name="loginTest" duration-ms="450" started-at="2018-07-14T00:01:38Z" finished-at="2018-07-14T00:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:FaruqAcademy.LoginTest@790da477]" name="teardown" is-config="true" duration-ms="649" started-at="2018-07-14T00:01:39Z" finished-at="2018-07-14T00:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FaruqAcademy.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
