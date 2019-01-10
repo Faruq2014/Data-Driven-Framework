@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="FaruqAcademy.Home">
+      <class name="FaruqAcademy.LoginTest">
         <methods>
           <include name="getDriver"/>
-          <include name="navigationpage"/>
+          <include name="teardown"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- FaruqAcademy.Home -->
+      </class> <!-- FaruqAcademy.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5586" started-at="2018-07-13T23:36:24Z" finished-at="2018-07-13T23:36:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5586" started-at="2018-07-13T23:36:24Z" finished-at="2018-07-13T23:36:30Z">
+      <class name="property.Home">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:property.Home@548a9f61]" name="getDriver" is-config="true" duration-ms="4831" started-at="2018-07-13T19:36:24Z" finished-at="2018-07-13T19:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="navigationpage()[pri:0, instance:property.Home@548a9f61]" name="navigationpage" duration-ms="152" started-at="2018-07-13T19:36:29Z" finished-at="2018-07-13T19:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationpage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:property.Home@548a9f61]" name="teardown" is-config="true" duration-ms="589" started-at="2018-07-13T19:36:29Z" finished-at="2018-07-13T19:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- property.Home -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
