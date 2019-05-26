@@ -14,13 +14,14 @@ public class Base {
 
 	public static WebDriver driver;
 	public Properties prop;
-public Base() {}
+    public Base() {}
 	
 		public WebDriver intializeDriver() throws IOException {
 		 prop = new Properties();
 			
-			FileInputStream fis = new FileInputStream("C:\\Users\\Faruq\\Documents\\workspace-sts-3.9.1.RELEASE\\ExcellSheet\\src\\test\\java\\property\\data.properties");
 			
+			FileInputStream fis = new FileInputStream("C:\\Users\\Faruq\\git\\Data-Driven-Framework\\ExcellSheet\\src\\test\\java\\property\\data.properties");
+			                                           
 			prop.load(fis);
 			String browserName= prop.getProperty("browser");
 			System.out.println(browserName);

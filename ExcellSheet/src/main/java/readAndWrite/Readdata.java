@@ -2,12 +2,12 @@ package readAndWrite;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Readdata {
 
 	public static void main(String[] args) {
-		ExcelDataConfig excell = new ExcelDataConfig("C://Users//Faruq//Desktop//testdata.xlsx");
+		ExcelDataConfig excell = new ExcelDataConfig("C://Users//Faruq//Desktop//xcell sheet//testdata.xlsx");
 		
 		       
                  String username=   excell.getData(0, 2, 1);
@@ -25,9 +25,9 @@ public class Readdata {
                 String loginlocator= excell.getData(0, 6, 1);
                 System.out.println(loginlocator);
                 
-         		System.setProperty("webdriver.gecko.driver", "C:\\SeleniumDriver\\geckodriver.exe");
-                 WebDriver driver = new FirefoxDriver();
-     	
+                System.setProperty("webdriver.chrome.driver", "C:\\SeleniumDriver\\chromedriver_win32\\chromedriver.exe");
+        		WebDriver driver = new ChromeDriver();
+         
      driver.get("https://www.facebook.com/");
       System.out.println("khalled facebook"+excell.getData(0, 0, 0));
       

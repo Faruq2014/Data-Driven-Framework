@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class WriteExcell {
 
 	public static void main(String[] args) throws IOException {
-		File src =new File("C://Users//Faruq//Desktop//testdata.xlsx");
+		File src =new File("C://Users//Faruq//Desktop//xcell sheet//testdata.xlsx");
 		FileInputStream fis= new FileInputStream(src);
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 		
@@ -20,6 +20,7 @@ public class WriteExcell {
 		sheet.getRow(1).createCell(4).setCellValue("fail");
 		FileOutputStream fout = new FileOutputStream(src);
 		wb.write(fout);
+		System.out.println("wrote the data sucessfully");
 		wb.close();
 
 	}

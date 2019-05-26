@@ -19,7 +19,7 @@ public class DataDriven {
 		
 ArrayList<String> a = new ArrayList<String>();
 		
-		FileInputStream fis=new FileInputStream("C://Users//Faruq//Desktop//testdata.xlsx");
+		FileInputStream fis=new FileInputStream("C://Users//Faruq//Desktop//xcell sheet//testdata.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		int sheets=workbook.getNumberOfSheets();
 		for(int i =0; i<sheets;i++) {
@@ -42,7 +42,7 @@ ArrayList<String> a = new ArrayList<String>();
 		//System.out.println(coloumn);
 		while(rows.hasNext()) {
 		Row r =	rows.next();
-		if(r.getCell(coloumn).getStringCellValue().equalsIgnoreCase("khalled")) {
+		if(r.getCell(coloumn).getStringCellValue().equalsIgnoreCase("farid")) {
 			Iterator<Cell> cv=r.cellIterator();
 			while(cv.hasNext()) {
 				Cell c=cv.next();

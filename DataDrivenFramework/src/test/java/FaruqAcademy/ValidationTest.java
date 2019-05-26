@@ -9,10 +9,11 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import resources.Base;
+import utilities.ExcelDataConfig;
 
-public class Home extends Base {
+public class ValidationTest extends Base {
 	public static Logger log =LogManager.getLogger(Base.class.getName());
-	ExcelDataConfig excell = new ExcelDataConfig("C:\\Users\\Faruq\\DataDrivenFramework\\src\\main\\java\\resources\\testdata.xlsx");
+	//ExcelDataConfig excell = new ExcelDataConfig("C:\\Users\\Faruq\\DataDrivenFramework\\src\\main\\java\\resources\\testdata.xlsx");
 	@BeforeTest
 	public void getDriver() throws IOException {
 		

@@ -12,7 +12,7 @@ public class ReadAll {
 	public static void main(String[] args) throws IOException {
 		
 		
-		File src =new File("C://Users//Faruq//Desktop//testdata.xlsx");
+		File src =new File("C://Users//Faruq//Desktop//xcell sheet//testdata.xlsx");
 		FileInputStream fis= new FileInputStream(src);
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 		

@@ -1,10 +1,10 @@
 package resources;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+import java.io.FileInputStream;
+import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -19,8 +19,8 @@ public Base() {}
 		public WebDriver intializeDriver() throws IOException {
 		 prop = new Properties();
 			
-			FileInputStream fis = new FileInputStream("C:\\Users\\Faruq\\Documents\\workspace-sts-3.9.1.RELEASE\\ExcellSheet\\src\\test\\java\\property\\data.properties");
-			
+			//FileInputStream fis = new FileInputStream("C:\\Users\\Faruq\\Documents\\workspace-sts-3.9.1.RELEASE\\ExcellSheet\\src\\test\\java\\property\\data.properties");
+			FileInputStream fis = new FileInputStream("C:\\Users\\Faruq\\git\\Data-Driven-Framework\\DataDrivenFramework\\src\\main\\java\\resources\\data.properties");
 			prop.load(fis);
 			String browserName= prop.getProperty("browser");
 			System.out.println(browserName);
@@ -48,5 +48,7 @@ public Base() {}
 
 
 	}
+		
+		
 
 }

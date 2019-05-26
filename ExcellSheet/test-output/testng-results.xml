@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5586" started-at="2018-07-13T23:36:24Z" finished-at="2018-07-13T23:36:30Z">
+  <suite name="Default suite" duration-ms="10745" started-at="2019-05-26T16:08:12Z" finished-at="2019-05-26T16:08:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5586" started-at="2018-07-13T23:36:24Z" finished-at="2018-07-13T23:36:30Z">
+    <test name="Default test" duration-ms="10745" started-at="2019-05-26T16:08:12Z" finished-at="2019-05-26T16:08:23Z">
       <class name="property.Home">
-        <test-method status="PASS" signature="getDriver()[pri:0, instance:property.Home@548a9f61]" name="getDriver" is-config="true" duration-ms="4831" started-at="2018-07-13T19:36:24Z" finished-at="2018-07-13T19:36:29Z">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:property.Home@548a9f61]" name="getDriver" is-config="true" duration-ms="7548" started-at="2019-05-26T12:08:12Z" finished-at="2019-05-26T12:08:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="navigationpage()[pri:0, instance:property.Home@548a9f61]" name="navigationpage" duration-ms="152" started-at="2018-07-13T19:36:29Z" finished-at="2018-07-13T19:36:29Z">
+        <test-method status="PASS" signature="navigationpage()[pri:0, instance:property.Home@548a9f61]" name="navigationpage" duration-ms="1030" started-at="2019-05-26T12:08:20Z" finished-at="2019-05-26T12:08:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigationpage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:property.Home@548a9f61]" name="teardown" is-config="true" duration-ms="589" started-at="2018-07-13T19:36:29Z" finished-at="2018-07-13T19:36:30Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:property.Home@548a9f61]" name="teardown" is-config="true" duration-ms="2147" started-at="2019-05-26T12:08:21Z" finished-at="2019-05-26T12:08:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

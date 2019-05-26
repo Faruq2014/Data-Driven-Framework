@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10592" started-at="2018-07-14T04:01:29Z" finished-at="2018-07-14T04:01:40Z">
+  <suite name="Suite" duration-ms="24054" started-at="2019-05-26T19:57:29Z" finished-at="2019-05-26T19:57:53Z">
     <groups>
     </groups>
-    <test name="Homepage" duration-ms="6054" started-at="2018-07-14T04:01:29Z" finished-at="2018-07-14T04:01:35Z">
-      <class name="FaruqAcademy.Home">
-        <test-method status="PASS" signature="getDriver()[pri:0, instance:FaruqAcademy.Home@70cf32e3]" name="getDriver" is-config="true" duration-ms="5298" started-at="2018-07-14T00:01:29Z" finished-at="2018-07-14T00:01:34Z">
+    <test name="ValidationTest" duration-ms="9898" started-at="2019-05-26T19:57:29Z" finished-at="2019-05-26T19:57:39Z">
+      <class name="FaruqAcademy.ValidationTest">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:FaruqAcademy.ValidationTest@619713e5]" name="getDriver" is-config="true" duration-ms="6787" started-at="2019-05-26T15:57:29Z" finished-at="2019-05-26T15:57:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="navigationpage()[pri:0, instance:FaruqAcademy.Home@70cf32e3]" name="navigationpage" duration-ms="83" started-at="2018-07-14T00:01:34Z" finished-at="2018-07-14T00:01:34Z">
+        <test-method status="PASS" signature="navigationpage()[pri:0, instance:FaruqAcademy.ValidationTest@619713e5]" name="navigationpage" duration-ms="798" started-at="2019-05-26T15:57:36Z" finished-at="2019-05-26T15:57:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigationpage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:FaruqAcademy.Home@70cf32e3]" name="teardown" is-config="true" duration-ms="658" started-at="2018-07-14T00:01:34Z" finished-at="2018-07-14T00:01:35Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:FaruqAcademy.ValidationTest@619713e5]" name="teardown" is-config="true" duration-ms="2302" started-at="2019-05-26T15:57:37Z" finished-at="2019-05-26T15:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- FaruqAcademy.Home -->
-    </test> <!-- Homepage -->
-    <test name="LoginTest" duration-ms="4515" started-at="2018-07-14T04:01:35Z" finished-at="2018-07-14T04:01:40Z">
+      </class> <!-- FaruqAcademy.ValidationTest -->
+    </test> <!-- ValidationTest -->
+    <test name="LoginTest" duration-ms="14140" started-at="2019-05-26T19:57:39Z" finished-at="2019-05-26T19:57:53Z">
       <class name="FaruqAcademy.LoginTest">
-        <test-method status="PASS" signature="getDriver()[pri:0, instance:FaruqAcademy.LoginTest@790da477]" name="getDriver" is-config="true" duration-ms="3416" started-at="2018-07-14T00:01:35Z" finished-at="2018-07-14T00:01:38Z">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:FaruqAcademy.LoginTest@1d9b7cce]" name="getDriver" is-config="true" duration-ms="6415" started-at="2019-05-26T15:57:39Z" finished-at="2019-05-26T15:57:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:FaruqAcademy.LoginTest@790da477]" name="loginTest" duration-ms="450" started-at="2018-07-14T00:01:38Z" finished-at="2018-07-14T00:01:39Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:FaruqAcademy.LoginTest@1d9b7cce]" name="loginTest" duration-ms="5302" started-at="2019-05-26T15:57:45Z" finished-at="2019-05-26T15:57:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:FaruqAcademy.LoginTest@790da477]" name="teardown" is-config="true" duration-ms="649" started-at="2018-07-14T00:01:39Z" finished-at="2018-07-14T00:01:40Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:FaruqAcademy.LoginTest@1d9b7cce]" name="teardown" is-config="true" duration-ms="2423" started-at="2019-05-26T15:57:51Z" finished-at="2019-05-26T15:57:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
